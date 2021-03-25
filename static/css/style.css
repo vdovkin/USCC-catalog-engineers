@@ -1,0 +1,54 @@
+.show{
+    display: block !important;
+}
+
+
+.card{
+    margin-bottom:  50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-title{
+    color: #536279;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+ a.card-title:hover{
+    color: #f89c49;
+}
+
+.card p{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.card .avatar{
+    max-height: 150px;
+}
+
+.card-body{
+    padding: 0px 25px;
+    width: 450px;
+}
+
+.card-body span{
+    color: #536279;
+    font-weight: bold;
+}
+
+.rating span{
+    font-size: 24px;
+    color: #536279;
+}
+
+span.rate, p.rate{
+    font-size: 16px;
+}
+
+.rating .checked {
+    color: orange;
+  }
