@@ -4087,6 +4087,7 @@ aside .check-box label:after {
     text-transform: uppercase;
     min-height: unset;
     line-height: 1;
+    margin-top: 2px;
 }
 .acc_and_filtr .acc .acc_title:after {
     right: 25px;
