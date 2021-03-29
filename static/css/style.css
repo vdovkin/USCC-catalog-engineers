@@ -29,6 +29,10 @@
     padding-right: 10px;
 }
 
+.contact-info a{
+    color: #536279;
+}
+
 .card-title{
     color: #536279;
     font-weight: bold;
@@ -71,4 +75,16 @@ span.rate, p.rate{
 
 .rating .checked {
     color: #f89c49;
+  }
+
+  .uscc-member img{
+      height: 40px;
+  }
+
+  .uscc-member{
+      margin-bottom: 15px;
+  }
+
+  .uscc-member-text{
+      display: inline;
   }

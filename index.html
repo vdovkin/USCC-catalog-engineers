@@ -91,9 +91,37 @@
       </div>
       <div class="container-100">
         <div class="btns-row">
-          <a href="/index2.html" class="btn-orange"
-            >Каталог проектних організацій</a
-          >
+          <div class="check-box">
+            <input
+              type="checkbox"
+              name="categories_id[]"
+              id="org"
+              value="-74"
+              checked
+            />
+            <label for="org">ОРГАНІЗАЦІЇ</label>
+          </div>
+          <div class="check-box">
+            <input
+              type="checkbox"
+              name="categories_id[]"
+              id="org2"
+              value="-74"
+              checked
+            />
+            <label for="org2">ФОП</label>
+          </div>
+          <div class="check-box">
+            <input
+              type="checkbox"
+              name="categories_id[]"
+              id="org3"
+              value="-74"
+              checked
+            />
+            <label for="org3">Фізичні особи</label>
+          </div>
+
         </div>
       </div>
     </section>
@@ -1100,6 +1128,71 @@
         </aside>
 
         <div class="right catalog" id="catalog-pro-individual">
+          <div class="card org">
+            <img class="avatar" src="static/img/vartist.jpg" alt="avatar" />
+            <div class="card-body">
+              <a class="card-title" href="#">ВАРТІСТЬ</a>
+              <div class="wrapper">
+                <div class="info">
+                  <p><span>Регіон</span> м.Київ</p>
+                  <p><span>Термін діяльності</span> 25 років</p>
+                  <p><span>Види робіт</span> Проектування, технічна діагностика, інжиніринг, наукові розробки, оптимізація рішень і вартості, аналіз життєвого циклу  </p>
+                </div>
+                <div class="contact-info">
+                  <p><span>Телефон</span>+38 (067) 588-82-95</p>
+                  <p><span>Email</span> vartist@ukr.net </p>
+                  <p><span>Сайт</span> <a href="http://www.vartist.com.ua">www.vartist.com.ua</a></p>
+                  <p><span>Адреса</span> 03151, м. Київ, вул. Ушинського, 40, Dominion Business Park, оф. 224</p>
+                </div>
+                <div class="rating">
+                  <div class="uscc-member">
+                    <img src="static/img/logo-small.png" alt="avatar" />
+                  <div class="uscc-member-text">Учасник УЦСБ</div>
+                  </div>
+
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="rate">4.9</span>
+                  <p class="rate">на основі 7 оцінок</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card org">
+            <img class="avatar" src="static/img/Boouro36.png" alt="avatar" />
+            <div class="card-body">
+              <a class="card-title" href="#">BYOORO36</a>
+              <div class="wrapper">
+                <div class="info">
+                  <p><span>Регіон</span> м.Київ</p>
+                  <p><span>Термін діяльності</span> 1 рік</p>
+                  <p><span>Види робіт</span> Концептуальні рішення будівель і споруд, тендерні пропозиції, одностадійне проектування, система помарочного контролю виготовлення та монтажу металевих конструкцій, оптимізація розроблених проектів КМ для зменшення витрат на будівництво </p>
+                </div>
+                <div class="contact-info">
+                  <p><span>Телефон</span> +38 (044) 465-73-10</p>
+                  <p><span>Email</span> design@byooro36.com </p>
+                  <p><span>Адреса</span> 04070, м.Київ, вул. Хорива 33, оф.31.</p>
+                </div>
+                <div class="rating">
+                  <div class="uscc-member">
+                    <img src="static/img/logo-small.png" alt="avatar" />
+                  <div class="uscc-member-text">Учасник УЦСБ</div>
+                  </div>
+
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="rate">4.9</span>
+                  <p class="rate">на основі 7 оцінок</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="card">
             <img class="avatar" src="static/img/avatar1.jpeg" alt="avatar" />
             <div class="card-body">
@@ -1107,7 +1200,7 @@
               <div class="wrapper">
                 <div class="info">
                   <p><span>Регіон</span> м.Київ</p>
-                  <p><span>Стаж проектування</span> 6 років</p>
+                  <p><span>Термін діяльності</span> 6 років</p>
                   <p><span>Види робіт</span> Розділи проекту - КМ, КМД</p>
                   <p><span>Спеціалізація</span> Паркінги, Офісні будівлі</p>
                   <p><span>Сертифікат</span> СС2</p>
@@ -1131,13 +1224,42 @@
           </div>
 
           <div class="card">
+            <img class="avatar" src="static/img/logo-1.png" alt="avatar" />
+            <div class="card-body">
+              <a class="card-title" href="#">Pro-проджект</a>
+              <div class="wrapper">
+                <div class="info">
+                  <p><span>Регіон</span> м.Київ</p>
+                  <p><span>Термін діяльності</span> 12 років</p>
+                  <p><span>Види робіт</span> Всі розділи проекту</p>
+                </div>
+                <div class="contact-info">
+                  <p><span>Телефон</span> 093-232-52-22</p>
+                  <p><span>Email</span> proproject@gmail.com</p>
+                  <p><span>Сайт</span> www.proproject</p>
+                  <p><span>Адреса</span> 04023, м.Київ, вул. Проектна 11, оф.21.</p>
+                </div>
+                <div class="rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="rate">4.8</span>
+                  <p class="rate">на основі 3 оцінок</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
             <img class="avatar" src="static/img/avatar2.jpeg" alt="avatar" />
             <div class="card-body">
               <a class="card-title" href="#">Хомич Марія Константинівна</a>
               <div class="wrapper">
                 <div class="info">
                   <p><span>Регіон</span> м.Львів</p>
-                  <p><span>Стаж проектування</span> 5 років</p>
+                  <p><span>Термін діяльності</span> 5 років</p>
                   <p>
                     <span>Види робіт</span> Розділи проекту - КБ,
                     BIM-проєктування
@@ -1169,7 +1291,7 @@
               <div class="wrapper">
                 <div class="info">
                   <p><span>Регіон</span> м.Житомир</p>
-                  <p><span>Стаж проектування</span> 20 років</p>
+                  <p><span>Термін діяльності</span> 20 років</p>
                   <p><span>Види робіт</span> Обстеження будівель і споруд</p>
                   <p><span>Сертифікат</span> СС3</p>
                 </div>
@@ -1198,7 +1320,7 @@
               <div class="wrapper">
                 <div class="info">
                   <p><span>Регіон</span> м.Київ</p>
-                  <p><span>Стаж проектування</span> 2 роки</p>
+                  <p><span>Термін діяльності</span> 2 роки</p>
                   <p><span>Види робіт</span> Розділи проекту - АР</p>
                   <p>
                     <span>Спеціалізація</span> Заклади харчування: кафе, бари,
@@ -1229,7 +1351,7 @@
               <div class="wrapper">
                 <div class="info">
                   <p><span>Регіон</span> м.Запоріжжя</p>
-                  <p><span>Стаж проектування</span> 4 роки</p>
+                  <p><span>Термін діяльності</span> 4 роки</p>
                   <p><span>Види робіт</span> Розділи проекту - КБ, КМ, КМД</p>
                   <p>
                     <span>Спеціалізація</span> Логістичні комплекси і складські
@@ -1261,7 +1383,7 @@
               <div class="wrapper">
                 <div class="info">
                   <p><span>Регіон</span> м.Вінниця</p>
-                  <p><span>Стаж проектування</span> 14 років</p>
+                  <p><span>Термін діяльності</span> 14 років</p>
                   <p><span>Види робіт</span> Розділи проекту - КМД</p>
                 </div>
                 <div class="contact-info">
