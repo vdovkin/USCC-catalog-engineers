@@ -21,7 +21,7 @@
 
 .info{
     width: 45%;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .contact-info{
@@ -69,13 +69,6 @@
     color: #536279;
 }
 
-span.rate, p.rate{
-    font-size: 16px;
-}
-
-.rating .checked {
-    color: #f89c49;
-  }
 
   .uscc-member img{
       height: 40px;
