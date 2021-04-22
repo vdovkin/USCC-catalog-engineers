@@ -75,9 +75,116 @@
   }
 
   .uscc-member{
+      margin-top: 10px;
       margin-bottom: 15px;
+      color: #536279;
   }
 
   .uscc-member-text{
       display: inline;
   }
+
+  .center{
+      text-align: center;
+  }
+
+  .title-block-2{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .uscc-member-2 img{
+    height: 60px;
+}
+
+.uscc-member-2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 60px;
+    color: #536279;
+    font-size: 22px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #536279;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.float{
+    float: left;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid  #536279;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid  #536279;
+}  
+
+.portfolio-title{
+    margin: 15px;
+    color:  #536279;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description{
+    padding: 10px 0;
+}
+
+.description ul{
+    font-size: 24px;
+    color:  #536279;
+    line-height: 1.5;
+}
+
+.description p{
+    padding-bottom: 25px;
+}
+
+.description li{
+    padding-bottom: 20px;
+}
+
+.company-card span{
+    color: #536279;
+    font-weight: bold;
+}
+
+
+.company-card p{
+    padding-bottom: 20px;
+}
+
+.company-card p{
+    font-size: 24px;
+}
+
+.company-card ul{
+    font-size: 24px;
+    color:  #536279;
+    line-height: 1.5;
+}
+
+.company-card li{
+    padding-bottom: 20px;
+    list-style: disc;
+    margin-left: 20px;
+}
+
