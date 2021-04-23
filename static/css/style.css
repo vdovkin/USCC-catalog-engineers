@@ -188,3 +188,15 @@
     margin-left: 20px;
 }
 
+.join{
+    font-size: 18px;
+    color:  #536279;
+}
+
+.join a{
+    color:  #536279;
+}
+
+.join a:hover{
+    color: #f89c49;
+}
