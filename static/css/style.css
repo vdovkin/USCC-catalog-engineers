@@ -20,14 +20,10 @@
 }
 
 .info{
-    width: 45%;
+    width: 70%;
     padding-right: 15px;
 }
 
-.contact-info{
-    width: 35%;
-    padding-right: 10px;
-}
 
 .contact-info a{
     color: #536279;
@@ -75,6 +71,7 @@
   }
 
   .uscc-member{
+      margin-left: 15px;
       margin-top: 10px;
       margin-bottom: 15px;
       color: #536279;
@@ -198,5 +195,13 @@
 }
 
 .join a:hover{
+    color: #f89c49;
+}
+
+.link a{
+    color: #536279;
+}
+
+.link a:hover{
     color: #f89c49;
 }
